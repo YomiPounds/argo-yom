@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: myapp-argo2
+  name: myapp-argo22
   namespace: argocd
 spec:
-  project: ariyo
+  project: ariyos
 
   source:
     repoURL: https://github.com/YomiPounds/argo-yom.git
