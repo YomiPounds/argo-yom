@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: myapp-argo22
+  name: myapp-argo23
   namespace: argocd
 spec:
   project: ariyos
 
   source:
-    repoURL: https://github.com/YomiPounds/argo-yom.git
+    repoURL: git@github.com:YomiPounds/argo-yom.git
     targetRevision: HEAD
     path: dev
   destination: 
