@@ -4,15 +4,14 @@ metadata:
   name: yomi-argocd
   namespace: argocd
 spec:
-  project: ariyos
-
+  project: default
   source:
     repoURL: git@github.com:YomiPounds/argo-yom.git
     targetRevision: HEAD
     path: dev
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp-argo
+    namespace: argocd
 
   syncPolicy:
     syncOptions:
