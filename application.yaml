@@ -1,15 +1,15 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: myapp-argo23
+  name: yomi-argocd
   namespace: argocd
 spec:
   project: ariyos
 
   source:
     repoURL: git@github.com:YomiPounds/argo-yom.git
-    targetRevision: main
-    path: /dev
+    targetRevision: HEAD
+    path: dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp-argo
