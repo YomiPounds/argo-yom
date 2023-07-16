@@ -4,10 +4,10 @@ metadata:
   name: myapp-argo23
   namespace: argocd
 spec:
-  project: ariyos
+  project: default
 
   source:
-    repoURL: git@github.com:YomiPounds/argo-yom.git
+    repoURL: https://github.com/YomiPounds/argo-yom.git
     targetRevision: HEAD
     path: dev
   destination: 
