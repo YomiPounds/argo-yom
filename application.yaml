@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/YomiPounds/argo-yom.git
-    targetRevision: HEAD
+    targetRevision: master
     path: dev
   destination: 
     server: https://kubernetes.default.svc
