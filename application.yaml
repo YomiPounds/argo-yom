@@ -5,8 +5,12 @@ metadata:
   namespace: argocd
 spec:
   project: default
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9f35768080c96e19a86df7ed215ba12bca33c1f3
   source:
-    repoURL: git@github.com:YomiPounds/argo-yom.git
+    repoURL: https://github.com/YomiPounds/argo-yom.git
     targetRevision: HEAD
     path: dev
   destination: 
